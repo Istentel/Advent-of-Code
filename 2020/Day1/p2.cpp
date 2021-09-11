@@ -16,7 +16,7 @@ int main()
     {
         stringstream ss(line);
         int nr;
-        ss >> nr >> nr;
+        ss >> nr;
         nums.push_back(nr);
     }
 
